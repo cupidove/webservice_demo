@@ -3,6 +3,7 @@ package com.x.ws.client.wsimport;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -29,6 +30,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "getHelloWorldAsString", propOrder = {
     "arg0"
 })
+@XmlRootElement(name = "getHelloWorldAsString")
 public class GetHelloWorldAsString {
 
     protected String arg0;
